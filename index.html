@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- ═══ PRIMARY SEO ═══ -->
+<title>Muhammad Rohail — Flutter & Full Stack Developer | Islamabad</title>
+<meta name="description" content="Muhammad Rohail is a Flutter & Full Stack Developer from Islamabad, Pakistan. Building cross-platform iOS & Android apps and responsive websites. Available for freelance work."/>
+<meta name="keywords" content="Muhammad Rohail, Flutter Developer Pakistan, Flutter Developer Islamabad, Full Stack Developer Pakistan, Mobile App Developer Islamabad, Firebase Developer, React Developer Pakistan, Hire Flutter Developer"/>
+<meta name="author" content="Muhammad Rohail"/>
+<meta name="robots" content="index, follow"/>
+<meta name="theme-color" content="#04080f"/>
+<meta name="color-scheme" content="dark"/>
+<link rel="canonical" href="https://muhammadroahil.dev"/>
+
+<!-- ═══ OPEN GRAPH (Facebook, LinkedIn, WhatsApp previews) ═══ -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Muhammad Rohail — Flutter & Full Stack Developer"/>
+<meta property="og:description" content="Flutter & Full Stack Developer from Islamabad building cross-platform apps & websites. 6+ projects, 2+ years experience."/>
+<meta property="og:url" content="https://muhammadroahil.dev"/>
+<meta property="og:image" content="https://muhammadroahil.dev/images/og-image.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:site_name" content="Muhammad Rohail Portfolio"/>
+<meta property="og:locale" content="en_US"/>
+
+<!-- ═══ TWITTER CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Muhammad Rohail — Flutter & Full Stack Developer"/>
+<meta name="twitter:description" content="Flutter & Full Stack Developer from Islamabad building cross-platform apps & websites."/>
+<meta name="twitter:image" content="https://muhammadroahil.dev/images/og-image.jpg"/>
+
+<!-- ═══ FAVICON ═══ -->
+<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+
+<!-- ═══ STRUCTURED DATA (Google Rich Results) ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Muhammad Rohail",
+  "jobTitle": "Flutter & Full Stack Developer",
+  "description": "Flutter & Full Stack Developer from Islamabad, Pakistan building cross-platform mobile apps and responsive websites.",
+  "url": "https://muhammadroahil.dev",
+  "email": "muhammadrohail.cce@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Islamabad",
+    "addressCountry": "PK"
+  },
+  "sameAs": [
+    "https://github.com/M-Rohail",
+    "https://linkedin.com/in/muhammad-rohail"
+  ],
+  "knowsAbout": ["Flutter", "Dart", "Firebase", "React", "JavaScript", "HTML", "CSS", "Mobile Development", "Web Development"],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "J.Sons Communication"
+  }
+}
+</script>
+
+<!-- ═══ PERFORMANCE ═══ -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ6DP0MQF4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KQ6DP0MQF4');
+</script>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cur"></div>
+<div id="cur2"></div>
+
+<!-- CANVAS -->
+<canvas id="bgc"></canvas>
+
+<!-- LOADER -->
+<div id="ldr">
+  <div class="ldr-logo">MR_</div>
+  <div class="ldr-bar"><div class="ldr-fill" id="lfill"></div></div>
+  <div class="ldr-pct" id="lpct">0%</div>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="n-mobile-menu" id="mobile-menu">
+  <a href="#about">ABOUT</a>
+  <a href="#skills">SKILLS</a>
+  <a href="#projects">PROJECTS</a>
+  <a href="#experience">EXPERIENCE</a>
+  <a href="#contact">CONTACT</a>
+  <a href="https://wa.me/923085382499" target="_blank" style="color:#25D366">WHATSAPP ↗</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#hero" class="n-logo">MR_</a>
+  <ul class="n-links">
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#experience">EXPERIENCE</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <a href="https://wa.me/923085382499" target="_blank" class="n-cta">HIRE ME →</a>
+  <button class="n-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+
+    <!-- LEFT: TEXT -->
+    <div class="hero-left">
+      <div class="hero-eyebrow">ISLAMABAD, PAKISTAN — OPEN TO OPPORTUNITIES</div>
+      <div class="h1-wrap">
+        <span class="h1-line">Muhammad</span>
+        <span class="h1-line">Rohail.</span>
+        <span class="h1-line">Dev.</span>
+      </div>
+      <div class="hero-desc">// <span id="typed"></span><span class="caret"></span></div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-prim">VIEW MY WORK →</a>
+        <a href="#contact" class="btn-sec">GET IN TOUCH <span>↗</span></a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs"><div class="hs-n" data-count="2">0</div><div class="hs-l">YEARS EXP</div></div>
+        <div class="hs"><div class="hs-n" data-count="6">0</div><div class="hs-l">PROJECTS</div></div>
+        <div class="hs"><div class="hs-n" data-count="2">0</div><div class="hs-l">COUNTRIES</div></div>
+        <div class="hs"><div class="hs-n" data-count="100">0</div><div class="hs-l">PROBLEMS SOLVED</div></div>
+      </div>
+    </div>
+
+    <!-- RIGHT: PHOTO -->
+    <div class="hero-right">
+      <div class="photo-frame">
+        <!-- GLOW -->
+        <div class="photo-glow"></div>
+        <!-- CORNER ACCENTS -->
+        <div class="photo-corner tl"></div>
+        <div class="photo-corner tr"></div>
+        <div class="photo-corner bl"></div>
+        <div class="photo-corner br"></div>
+        <!-- ACTUAL PHOTO -->
+        <img id="hero-photo" class="photo-img" src="images/1.jpg" alt="Muhammad Rohail - Flutter and Full Stack Developer from Islamabad Pakistan" loading="eager" width="340" height="400" style="display:block"/>
+        <!-- PLACEHOLDER — shown by default -->
+        <div id="photo-placeholder" class="photo-placeholder" style="display: none;">
+          <div class="photo-placeholder-av">MR</div>
+          <div class="photo-placeholder-txt">
+            Replace with your photo<br/>
+            <span style="color:rgba(84,197,248,.4);font-size:10px">images/photo.jpg</span>
+          </div>
+          <label class="photo-placeholder-btn" style="cursor:pointer">
+            UPLOAD PHOTO
+            <input type="file" id="photo-upload" accept="image/*" style="display:none"/>
+          </label>
+        </div>
+        <!-- FLOATING BADGES -->
+        <div class="photo-badge b1">
+          <div class="photo-badge-dot"></div>
+          <div class="photo-badge-text">
+            <div class="photo-badge-label">STATUS</div>
+            <div class="photo-badge-val">Available ✓</div>
+          </div>
+        </div>
+        <div class="photo-badge b2">
+          <div class="photo-badge-dot amber"></div>
+          <div class="photo-badge-text">
+            <div class="photo-badge-label">BASED IN</div>
+            <div class="photo-badge-val">Islamabad 🇵🇰</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-row1" id="tk1"></div>
+  <div class="ticker-row2" id="tk2"></div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="wrap">
+  <div class="sl r">ABOUT ME</div>
+  <div class="st r d1">The Developer<br/>Behind the Code</div>
+  <div class="ab-grid">
+    <div class="ab-text">
+      <p class="r">I'm a <b>Full Stack Mobile & Web Developer</b> from Islamabad, Pakistan. At <em>25</em>, I've already shipped apps used by real people solving real problems — from on-demand water tanker booking to roadside tyre repair for InDrive and Bykea drivers.</p>
+      <p class="r d1">I work at <b>J.Sons Communication</b> as a full stack web developer, building production websites for clients. Outside of work, I'm an entrepreneur — I built and run <em>Loftiq.store</em>, a premium furniture brand serving Ontario, Canada. Fully managed from Islamabad.</p>
+      <p class="r d2">I believe the best developers think like <b>entrepreneurs</b>. I don't just code what I'm told — I find problems, build solutions, and ship them to the world.</p>
+      <div class="ab-nums r d3">
+        <div class="an"><div class="an-n" data-target="2">0</div><div class="an-l">YEARS EXPERIENCE</div></div>
+        <div class="an"><div class="an-n" data-target="6">0</div><div class="an-l">PROJECTS SHIPPED</div></div>
+        <div class="an"><div class="an-n" data-target="2">0</div><div class="an-l">COUNTRIES REACHED</div></div>
+        <div class="an"><div class="an-n" data-target="100">0</div><div class="an-l">CLIENT SATISFACTION</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="ab-card r d2">
+        <div class="ab-card-top">
+          <div class="ab-av">MR</div>
+          <div><div class="ab-n">Muhammad Rohail</div><div class="ab-r">// FULL STACK DEVELOPER</div></div>
+        </div>
+        <div class="ab-rows">
+          <div class="ab-row"><div class="ab-ic">📍</div>Islamabad, Pakistan</div>
+          <div class="ab-row"><div class="ab-ic">🏢</div>J.Sons Communication</div>
+          <div class="ab-row"><div class="ab-ic">🛋️</div>Founder @ Loftiq.store 🍁</div>
+          <div class="ab-row"><div class="ab-ic">📱</div>Flutter & Firebase</div>
+          <div class="ab-row"><div class="ab-ic">🌐</div>HTML · CSS · JS · React</div>
+          <div class="ab-row"><div class="ab-ic">✉️</div>muhammadrohail.cce@gmail.com</div>
+        </div>
+        <div class="ab-lks">
+          <a href="https://github.com/M-Rohail" target="_blank" class="ab-lk">GITHUB</a>
+          <a href="https://linkedin.com/in/muhammad-rohail" target="_blank" class="ab-lk">LINKEDIN</a>
+          <a href="https://loftiq.store" target="_blank" class="ab-lk">LOFTIQ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="wrap">
+  <div class="sl r">TECH STACK</div>
+  <div class="st r d1">Skills &<br/>Expertise</div>
+  <div class="sk-grid r d2">
+    <div class="sk-col">
+      <div class="sk-lbl">01 / MOBILE</div>
+      <div class="sk-ttl">Flutter Dev</div>
+      <div class="sk-list">
+        <div class="sk-it"><div class="sk-nm"><span>Flutter</span><span>95%</span></div><div class="sk-bar"><div class="sk-fill" data-w="95"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Dart</span><span>90%</span></div><div class="sk-bar"><div class="sk-fill" data-w="90"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Firebase</span><span>85%</span></div><div class="sk-bar"><div class="sk-fill" data-w="85"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Android</span><span>80%</span></div><div class="sk-bar"><div class="sk-fill" data-w="80"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>iOS</span><span>70%</span></div><div class="sk-bar"><div class="sk-fill" data-w="70"></div></div></div>
+      </div>
+    </div>
+    <div class="sk-col">
+      <div class="sk-lbl">02 / WEB</div>
+      <div class="sk-ttl">Web Dev</div>
+      <div class="sk-list">
+        <div class="sk-it"><div class="sk-nm"><span>HTML/CSS</span><span>95%</span></div><div class="sk-bar"><div class="sk-fill" data-w="95"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>JavaScript</span><span>85%</span></div><div class="sk-bar"><div class="sk-fill" data-w="85"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>React</span><span>75%</span></div><div class="sk-bar"><div class="sk-fill" data-w="75"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>TailwindCSS</span><span>88%</span></div><div class="sk-bar"><div class="sk-fill" data-w="88"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>SEO</span><span>82%</span></div><div class="sk-bar"><div class="sk-fill" data-w="82"></div></div></div>
+      </div>
+    </div>
+    <div class="sk-col">
+      <div class="sk-lbl">03 / BACKEND</div>
+      <div class="sk-ttl">Firebase</div>
+      <div class="sk-list">
+        <div class="sk-it"><div class="sk-nm"><span>Firestore</span><span>88%</span></div><div class="sk-bar"><div class="sk-fill" data-w="88"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Auth</span><span>92%</span></div><div class="sk-bar"><div class="sk-fill" data-w="92"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>FCM</span><span>82%</span></div><div class="sk-bar"><div class="sk-fill" data-w="82"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Storage</span><span>85%</span></div><div class="sk-bar"><div class="sk-fill" data-w="85"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Functions</span><span>72%</span></div><div class="sk-bar"><div class="sk-fill" data-w="72"></div></div></div>
+      </div>
+    </div>
+    <div class="sk-col">
+      <div class="sk-lbl">04 / TOOLS</div>
+      <div class="sk-ttl">Workflow</div>
+      <div class="sk-list">
+        <div class="sk-it"><div class="sk-nm"><span>Git/GitHub</span><span>92%</span></div><div class="sk-bar"><div class="sk-fill" data-w="92"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Figma</span><span>78%</span></div><div class="sk-bar"><div class="sk-fill" data-w="78"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>VS Code</span><span>95%</span></div><div class="sk-bar"><div class="sk-fill" data-w="95"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Postman</span><span>80%</span></div><div class="sk-bar"><div class="sk-fill" data-w="80"></div></div></div>
+        <div class="sk-it"><div class="sk-nm"><span>Vercel</span><span>88%</span></div><div class="sk-bar"><div class="sk-fill" data-w="88"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="wrap">
+  <div class="sl r">PROJECTS</div>
+  <div class="st r d1">What I've Built</div>
+  <div class="pj-list">
+    <div class="pj r">
+      <div class="pj-n">01</div>
+      <div>
+        <div class="pj-title">Tanker Wala <span class="pj-badge">FEATURED</span></div>
+        <div class="pj-desc">On-demand water tanker booking app for Islamabad. Real-time tracking, Firebase push notifications, booking management. Solving Pakistan's water supply crisis with technology.</div>
+        <div class="pj-tags"><span class="pj-tag">FLUTTER</span><span class="pj-tag">DART</span><span class="pj-tag">FIREBASE</span><span class="pj-tag">REAL-TIME</span><span class="pj-tag">MOBILE APP</span></div>
+      </div>
+      <a href="https://github.com/M-Rohail" target="_blank" class="pj-arr">↗</a>
+    </div>
+    <div class="pj r d1">
+      <div class="pj-n">02</div>
+      <div>
+        <div class="pj-title">Tire Mate <span class="pj-badge">GRADE A</span></div>
+        <div class="pj-desc">FYP — On-demand roadside tyre repair for InDrive & Bykea drivers. Mechanics nearby see requests, bid in real-time, price negotiation built-in. No tow truck needed.</div>
+        <div class="pj-tags"><span class="pj-tag">FLUTTER</span><span class="pj-tag">FIREBASE</span><span class="pj-tag">GEOLOCATION</span><span class="pj-tag">BIDDING</span></div>
+      </div>
+      <a href="https://github.com/M-Rohail" target="_blank" class="pj-arr">↗</a>
+    </div>
+    <div class="pj r d2">
+      <div class="pj-n">03</div>
+      <div>
+        <div class="pj-title">Loftiq.store <span class="pj-badge">LIVE 🍁</span></div>
+        <div class="pj-desc">Premium furniture e-commerce business serving Ontario, Canada. Full store with SEO, cash-on-delivery. An international business built and run from Islamabad.</div>
+        <div class="pj-tags"><span class="pj-tag">HTML</span><span class="pj-tag">CSS</span><span class="pj-tag">JAVASCRIPT</span><span class="pj-tag">SEO</span><span class="pj-tag">E-COMMERCE</span></div>
+      </div>
+      <a href="https://loftiq.store" target="_blank" class="pj-arr">↗</a>
+    </div>
+    <div class="pj r d3">
+      <div class="pj-n">04</div>
+      <div>
+        <div class="pj-title">Home Ease</div>
+        <div class="pj-desc">Home services platform for Bahria Town, Rawalpindi. Connects residents with skilled plumbers, carpenters and electricians through a professional booking website.</div>
+        <div class="pj-tags"><span class="pj-tag">HTML</span><span class="pj-tag">CSS</span><span class="pj-tag">JAVASCRIPT</span><span class="pj-tag">SERVICE PLATFORM</span></div>
+      </div>
+      <div class="pj-arr" style="opacity:.25">↗</div>
+    </div>
+    <div class="pj r d4">
+      <div class="pj-n">05</div>
+      <div>
+        <div class="pj-title">Jackpot007</div>
+        <div class="pj-desc">Portfolio website for a gaming platform. High-energy design with custom animations built to match the bold aesthetic of the gaming industry.</div>
+        <div class="pj-tags"><span class="pj-tag">HTML</span><span class="pj-tag">CSS</span><span class="pj-tag">JAVASCRIPT</span><span class="pj-tag">GAMING</span></div>
+      </div>
+      <div class="pj-arr" style="opacity:.25">↗</div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="wrap">
+  <div class="sl r">EXPERIENCE</div>
+  <div class="st r d1">Where I've<br/>Worked</div>
+  <div class="ex-grid">
+    <div class="ex-card r d1">
+      <div class="ex-top-bar"></div>
+      <div class="ex-per">2023 — PRESENT</div>
+      <div class="ex-co">J.SONS COMMUNICATION</div>
+      <div class="ex-role">Full Stack Web Developer</div>
+      <div class="ex-desc">Building and delivering full stack web projects for clients. Front-end with HTML, CSS, JS & React. Back-end integrations and API work. Multiple projects delivered from design to deployment.</div>
+      <div class="ex-tags"><span class="ex-tag">HTML</span><span class="ex-tag">CSS</span><span class="ex-tag">JAVASCRIPT</span><span class="ex-tag">REACT</span><span class="ex-tag">TAILWIND</span></div>
+    </div>
+    <div class="ex-card r d2">
+      <div class="ex-top-bar"></div>
+      <div class="ex-per">2022 — PRESENT</div>
+      <div class="ex-co">SELF-EMPLOYED</div>
+      <div class="ex-role">Flutter Dev & Entrepreneur</div>
+      <div class="ex-desc">Independently building Flutter apps solving real problems in Pakistan. Founded and run Loftiq.store — premium furniture e-commerce for Ontario, Canada. Full dev + business ownership from Islamabad.</div>
+      <div class="ex-tags"><span class="ex-tag">FLUTTER</span><span class="ex-tag">FIREBASE</span><span class="ex-tag">DART</span><span class="ex-tag">E-COMMERCE</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="wrap">
+  <div class="sl r">CONTACT</div>
+  <div class="ct-grid">
+    <div class="r">
+      <div class="ct-big">Let's build something <em>insane</em> together.</div>
+      <div class="ct-sub">Whether you need a Flutter app, a website, or want to talk about a business idea — I'm always open to interesting problems worth solving.</div>
+      <div class="ct-items">
+        <a href="mailto:muhammadrohail.cce@gmail.com" class="cti">
+          <div class="cti-ic">@</div>
+          <div class="cti-t"><b>EMAIL</b>muhammadrohail.cce@gmail.com</div>
+        </a>
+        <a href="https://github.com/M-Rohail" target="_blank" class="cti">
+          <div class="cti-ic">⌥</div>
+          <div class="cti-t"><b>GITHUB</b>github.com/M-Rohail</div>
+        </a>
+        <a href="https://linkedin.com/in/muhammad-rohail" target="_blank" class="cti">
+          <div class="cti-ic">in</div>
+          <div class="cti-t"><b>LINKEDIN</b>linkedin.com/in/muhammad-rohail</div>
+        </a>
+        <a href="https://loftiq.store" target="_blank" class="cti">
+          <div class="cti-ic">🛋️</div>
+          <div class="cti-t"><b>LOFTIQ</b>loftiq.store</div>
+        </a>
+      </div>
+      <a href="https://wa.me/923085382499?text=Hi%20Rohail!%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" class="wa-btn">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        MESSAGE ON WHATSAPP
+      </a>
+    </div>
+    <div class="r d2">
+      <form class="form" id="cf">
+        <div class="fg"><label class="fl">YOUR NAME</label><input class="fi" type="text" id="fn" placeholder="John Smith" required/></div>
+        <div class="fg"><label class="fl">YOUR EMAIL</label><input class="fi" type="email" id="fe" placeholder="john@example.com" required/></div>
+        <div class="fg"><label class="fl">MESSAGE</label><textarea class="fi ft" id="fm" placeholder="Tell me about your project..." required></textarea></div>
+        <button type="submit" class="fsb" id="fsb">SEND MESSAGE →</button>
+        <div class="fok" id="fok">✓ Message received. I'll get back to you soon.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="fc">© 2025 <span>Muhammad Rohail</span>. Built with 💙 in Islamabad, Pakistan.</div>
+  <div class="fl2">
+    <a href="https://github.com/M-Rohail" target="_blank">GITHUB</a>
+    <a href="https://linkedin.com/in/muhammad-rohail" target="_blank">LINKEDIN</a>
+    <a href="https://loftiq.store" target="_blank">LOFTIQ</a>
+    <a href="https://wa.me/923085382499" target="_blank">WHATSAPP</a>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<div id="wa-float">
+  <div id="wa-tooltip">Chat with me on WhatsApp</div>
+  <a href="https://wa.me/923085382499?text=Hi%20Rohail!%20I%20saw%20your%20portfolio." target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
